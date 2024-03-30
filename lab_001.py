@@ -6,4 +6,4 @@
 print("Hello world")
 
 p = input("Please enter your best programing language: ")
-print(p, "Which is best programing for beginner")
+print(p, "is best programing for beginner")
