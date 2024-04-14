@@ -16,6 +16,19 @@ print(name)
 # 2nd Identifiers should not start with Digits ex: 123total = 30.
 # Special symbols can not use.
 # keyword can not use as Identifiers
+'''Keywords
+
+and 	False	nonlocal
+as	finally	not
+assert	for	or
+break	from	pass
+class	global	raise
+continue	if	return
+def	import	True 
+del	is	try
+elif	in	while
+else	lambda	with
+except	None	yield'''
 # an Identifiers can be any length.
 
 total = 10
