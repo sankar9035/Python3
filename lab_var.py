@@ -1,7 +1,14 @@
 # Variable
-
+'''
+Python Variable is containers that store values. Python is not “statically typed”.
+We do not need to declare variables before using them or declare their type.
+A variable is created the moment we first assign a value to it.
+A Python variable is a name given to a memory location.
+It is the basic unit of storage in a program.
+In this article, we will see how to define a variable in Python.
+'''
 # below one example.
-# syntex of variable: variable_name = variable_value
+# syntax of variable: variable_name = variable_value
 
 pi = 3.141
 name = "Shankar"
@@ -10,12 +17,16 @@ print(name)
 # Identifiers: It's a name which is used to identify.
 # pi is Identifiers and 3.141 its a value
 # there are certain rules to define Identifiers.
-# variable is also known Identifiers.
-# rules to create Identifiers
-# 1st we can use a-z, A-Z, 0-9 and underscore(_).
-# 2nd Identifiers should not start with Digits ex: 123total = 30.
-# Special symbols can not use.
-# keyword can not use as Identifiers
+'''
+rules to create Identifiers
+1st we can use a-z, A-Z, 0-9 and underscore(_).
+2nd Identifiers should not start with Digits ex: 123total = 30.
+Special symbols can not use.
+keyword can not use as Identifiers
+Identifiers are case sensitive. Total & total both are different.
+'''
+# below all are Python Keywords
+
 '''Keywords
 
 and 	False	nonlocal

@@ -1,1 +1,4 @@
-#data type
+'''
+list data type we will discus here
+
+'''
