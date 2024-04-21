@@ -24,3 +24,15 @@ print(type(b))
 print(c)
 print(type(c))
 
+name = input("Please enter your name: ")
+print(name)
+print(type(name))
+'''
+anything we take input from user using input function it will take as string.
+that we have convert into integer
+'''
+
+num1 = int(input("Please Enter first number: "))
+num2 = int(input("Please enter the second number: "))
+sum = num1 + num2
+print("Sum of two number ", sum)

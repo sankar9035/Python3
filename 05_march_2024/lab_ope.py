@@ -5,3 +5,5 @@ Type of operators.
 3. Assignment operators (=, +=, -=, *=, /=, %=, **=)
 4. logical operators (not, and, or)
 '''
+
+# Arithmetic operators
