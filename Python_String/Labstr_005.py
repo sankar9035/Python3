@@ -1,9 +1,9 @@
 '''
-Python Docstrings:
-Python documentation strings (or docstrings) provide a convenient way of associating documentation with Python modules, functions, classes, and methods.
-Declaring Docstrings: The docstrings are declared using ”’triple single quotes”’ or “”” triple double quotes “””
+Python Doc_strings:
+Python documentation strings (or doc_strings) provide a convenient way of associating documentation with Python modules, functions, classes, and methods.
+Declaring Docstrings: The doc_strings are declared using ”’triple single quotes”’ or “”” triple double quotes “””
 just below the class, method, or function declaration. All functions should have a docstring.
-Accessing Docstrings: The docstrings can be accessed using the __doc__ method of the object or using the help function.
+Accessing Doc_strings: The doc_strings can be accessed using the __doc__ method of the object or using the help function.
 The below examples demonstrate how to declare and access a docstring.
 Docstrings in Python
 
@@ -17,6 +17,7 @@ Docstrings in Classes
 Difference between Python comments and docstrings
 '''
 
+
 # Example: 1
 
 def my_function():
@@ -24,22 +25,29 @@ def my_function():
     docstrings and does nothing really.'''
 
     return None
+
+
 print("Using __doc__:")
 print(my_function.__doc__)
 
-print("Using help:")
+print("Using help function:")
 help(my_function)
 
 print("****************************************")
 
+
 def power(a, b):
     '''This is single line Doc_String returns arg1 raised to power arg2'''
 
-    return a**b
+    return a ** b
+
+
 print(power.__doc__)
 print(power(5, 6))
 
 print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
+
+
 # Multi-line Docstrings
 def add_number(a, b):
     """
@@ -52,6 +60,8 @@ def add_number(a, b):
     Returns:
     int: The sum of a and b.
   """
-    return a+b
+    return a + b
+
+
 print(add_number.__doc__)
 print(add_number(5, 8))

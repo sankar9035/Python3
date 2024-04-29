@@ -7,7 +7,7 @@ this implies that the string is a raw string and escape sequences inside it are 
 '''
 # Using raw String to
 # ignore Escape Sequences
-String1 = r"This is \x47\x65\x65\x6b\x73 in \x48\x45\x58"
+String1 = R"This is \x48\x65\x65\x6b\x73 in \x48\x45\x58"
 print("\nPrinting Raw String in HEX Format: ")
 print(String1)
 

@@ -11,16 +11,16 @@ which can hold arguments according to position or keyword to specify the order.
 # Formatting of Strings
 # Syntax: ‘String here {} then also {}’.format(‘something1′,’something2’)
 # Default order
-String1 = "{} {} {}".format('Python', 'Automation', 'Testing')
+My_String = "{} {} {}".format('Python', 'Automation', 'Testing')
 print("Print String in default order: ")
-print(String1)
+print(My_String)
 
 # Positional Formatting
-String1 = "{1} {0} {2}".format('Python', 'Automation', 'Testing')
+My_String = "{1} {0} {2}".format('Python', 'Automation', 'Testing')
 print("\nPrint String in Positional order: ")
-print(String1)
+print(My_String)
 
 # Keyword Formatting
-String1 = "{P} {A} {T}".format(P='Python', A='Automation', T='Testing')
+My_String = "{P} {A} {T}".format(P='Python', A='Automation', T='Testing')
 print("\nPrint String in order of Keywords: ")
-print(String1)
+print(My_String)

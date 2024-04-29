@@ -6,9 +6,12 @@ A variable is created the moment we first assign a value to it.
 A Python variable is a name given to a memory location.
 It is the basic unit of storage in a program.
 In this article, we will see how to define a variable in Python.
+LITERALS ARE THE ACTUAL VALUES ASSIGNED.
 '''
 # below one example.
 # syntax of variable: variable_name = variable_value
+# variable_name -> Identifiers (Variable names corresponded to Identifiers)
+# variable_value -> Literals (Variable values corresponded to literals)
 
 pi = 3.141
 name = "Shankar"
@@ -17,13 +20,25 @@ print(name)
 # Identifiers: It's a name which is used to identify.
 # pi is Identifiers and 3.141 its a value
 # there are certain rules to define Identifiers.
+
 '''
 rules to create Identifiers
-1st we can use a-z, A-Z, 0-9 and underscore(_).
-2nd Identifiers should not start with Digits ex: 123total = 30.
+we can use a-z, A-Z, 0-9 and underscore(_).
+Identifiers should not start with Digits ex: 123total = 30.
 Special symbols can not use.
 keyword can not use as Identifiers
 Identifiers are case sensitive. Total & total both are different.
+Multi Words Variable Names:
+ 1) Camel Case: Each word, except the first, starts with a capital letter:
+ example
+        myVariableName = "Amit kumar"
+2) Pascal Case: Each word starts with a capital letter:
+ example:
+        MyVariableName = "Ravikant kumar"
+3) Snake Case: Each word is separated by an underscore character (This one is recommended)
+
+example:
+        my_variable_name = "Shankar Rudrapaul"
 '''
 # below all are Python Keywords
 

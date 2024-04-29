@@ -29,7 +29,7 @@ print(name)
 print(type(name))
 '''
 anything we take input from user using input function it will take as string.
-that we have convert into integer
+that we have convert into integer or other type as well.
 '''
 
 num1 = int(input("Please Enter first number: "))

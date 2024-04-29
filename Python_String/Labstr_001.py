@@ -8,7 +8,7 @@ string_variable = "Python Automation with Shankar"
 string_var = "Python is a versatile programming language"
 print(string_var)
 print(id(string_var))
-print(type(string_var)) #That will show which type of data it is.
+print(type(string_var)) #That will show which data type of it is.
 
 # Creating a String
 # with single Quotes
