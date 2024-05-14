@@ -10,20 +10,20 @@ name = "Shankar Rudrapaul"
 print(f"My name is {name}.")
 
 # Arithmetic operations using F-strings.
-a = int(input("Enter the number which you would like to print the Table: "))
-print(f"{a} table is  ", a*1)
-print(f"{a} table is  ", a*2)
-print(f"{a} table is  ", a*3)
-print(f"{a} table is  ", a*4)
-print(f"{a} table is  ", a*5)
-print(f"{a} table is  ", a*6)
-print(f"{a} table is  ", a*7)
-print(f"{a} table is  ", a*8)
-print(f"{a} table is  ", a*9)
-print(f"{a} table is  ", a*10)
+# a = int(input("Enter the number to print the tables for: "))
+# print(f"{a} table of  {a}*1=", a*1)
+# print(f"{a} table of  {a}*2=", a*2)
+# print(f"{a} table of  {a}*3=", a*3)
+# print(f"{a} table of  {a}*4=", a*4)
+# print(f"{a} table of  {a}*5=", a*5)
+# print(f"{a} table of  {a}*6=", a*6)
+# print(f"{a} table of  {a}*7=", a*7)
+# print(f"{a} table of  {a}*8=", a*8)
+# print(f"{a} table of  {a}*9=", a*9)
+# print(f"{a} table of  {a}*10=", a*10)
 print("**********************************")
 # Lambda Expressions using F-strings
-print(f"She said her age is {(lambda x: x*9)(3)}")
+print(f"He said his age is {(lambda x: x*9)(3)}")
 #Float precision in the f-String Method
 #Syntax: {value:{width}.{precision}}
 '''

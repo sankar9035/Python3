@@ -26,7 +26,7 @@ print(id(String1))
 
 # Creating a String
 # with triple Quotes
-String1 = '''I'm a your trainer and I have "create this course"'''
+String1 = '''I'm your trainer and I have "create this course"'''
 print("\nString with the use of Triple Quotes: ")
 print(String1)
 print(id(String1))
@@ -42,7 +42,6 @@ print(id(String1))
 print("********************************************")
 name1 = "shankar"
 name1 = 'rudrapaul'
-print(name1)
 print(name1)
 print(id(name1))
 """
@@ -63,3 +62,17 @@ print(id(name2))
 name2 = 'Kumar'
 print(name2)
 print(id(name2))
+
+# Concatenate Strings in Python.
+"""Using + operator 
+Using join() method 
+Using % operator 
+Using format() function 
+Using “,” (comma)
+Using f-string ((Literal String Interpolation))
+Will see few examples. """
+print("Strings Concatenate Example")
+str1 = "Ravi"
+str2 = "Shankar"
+name = str1 + str2
+print(name)

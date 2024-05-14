@@ -1,7 +1,7 @@
 # Variable
 '''
 Python Variable is containers that store values. Python is not “statically typed”.
-We do not need to declare variables before using them or declare their type.
+We do not need to declare variables before using them or declare their type. Python is dynamically type.
 A variable is created the moment we first assign a value to it.
 A Python variable is a name given to a memory location.
 It is the basic unit of storage in a program.

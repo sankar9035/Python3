@@ -7,7 +7,7 @@ this implies that the string is a raw string and escape sequences inside it are 
 '''
 # Using raw String to
 # ignore Escape Sequences
-String1 = R"This is \x48\x65\x65\x6b\x73 in \x48\x45\x58"
+String1 = "This is \x50\x59\x54\x48\x4f\x4e in \x48\x45\x58"
 print("\nPrinting Raw String in HEX Format: ")
 print(String1)
 
@@ -27,9 +27,11 @@ print(txt)
 txt = "Hello\nWorld!"
 print(txt)
 
-#Octal value
+# Octal value
 # \ooo
-#A backslash followed by three integers will result in a octal value:
+# A backslash followed by three integers will result in a octal value:
 txt = "\110\145\154\154\157"
 print(txt)
-
+print("**********************************")
+s = R"C:\Program Files\norton\appx" #try this without R
+print(s)

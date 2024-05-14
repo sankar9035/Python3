@@ -12,12 +12,12 @@ x = 8
 x += x
 print(x)
 
-# 3) 3) Subtract and Assign: This operator is used to subtract the right operand from the left operand and then assigning the result to the left operand.
+# 3) Subtract and Assign: This operator is used to subtract the right operand from the left operand and then assigning the result to the left operand.
 # x -= y
 x = 15
-y = 9
+#y = 9
 # x = x-y
-x -= y
+x -= x
 print(x)
 
 #  4) Multiply and Assign: This operator is used to multiply the right operand with the left operand and then assigning the result to the left operand.
@@ -63,7 +63,7 @@ print(x)
 # x &= y
 x = 3
 y = 5
-# a = a & b
+# x = x & y
 x &= y
 print(x)
 

@@ -14,9 +14,9 @@ immutable data type which we can not change after created
 # Mapping type : Dict
 # Set
 # None
-a = 10
-b = 3.587
-c = 10+20j
+a = 10 # Integer
+b = 3.587 # Float
+c = 10+20j # Complex first part is real and other part is Imaginary.
 print(a)
 print(type(a))
 print(b)
