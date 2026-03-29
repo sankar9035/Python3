@@ -13,22 +13,22 @@ Type of operators.
 # Arithmetic operators.
 a = 10
 b = 9
-c = a + b
-d = a - b
-e = a * b
-f = a / b
-print(c)
-print(id(c))
-print(type(c))
-print(d)
-print(id(d))
-print(type(d))
-print(e)
-print(id(e))
-print(type(e))
-print(f)
-print(id(f))
-print(type(f))
+add_ops = a + b
+sub_ops = a - b
+multi_ops = a * b
+div_ops = a / b
+print(add_ops)
+print(id(add_ops))
+print(type(add_ops))
+print(sub_ops)
+print(id(sub_ops))
+print(type(sub_ops))
+print(multi_ops)
+print(id(multi_ops))
+print(type(multi_ops))
+print(div_ops)
+print(id(div_ops))
+print(type(div_ops))
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 # Division Operators. 1) Float division(/). 2) Floor division(//).
 # 1. Float division: The quotient returned by this operator is always a float number, no matter if two numbers are integers.

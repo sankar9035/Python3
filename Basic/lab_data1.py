@@ -29,7 +29,8 @@ print(x)
 print(type(x))
 
 '''
-casting: when conversion has done manually(Explicitly) When we want to specify the data type of a variable this can be done with casting.
+casting: when conversion has done manually(Explicitly) When we want to specify the data type of a variable this 
+can be done with casting.
 conversion: python automatically convert(Implicitly)
 Implicit & explicit type conversion
 '''

@@ -1,6 +1,6 @@
 # Token Type: Punctuators are symbols to organize sentence structure in programming.
 
-# Expresion Execution: floor gives closest integer, which is lesser than or equal to the float value.
+# Expression Execution: floor gives closest integer, which is lesser than or equal to the float value.
 # Result (a//b) is the same of (a/b)
 
 # Remainder is negative when denominator is negative. (ex 1:3 min)
