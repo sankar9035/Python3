@@ -18,11 +18,11 @@ from ONE blueprint — same way
 you can create MULTIPLE objects
 from ONE class
 
-
-Class       → Template/Blueprint
-Object      → Instance of a class
-Instance    → Another word for Object
-Instantiation → Act of creating an object
+Definations:
+Class       → Template/Blueprint for creating objects
+Object      → Instance of a class that has its own data and behavior.
+Instance    → Another word for Object (used interchangeably)
+Instantiation → The process of creating an object from a class
 
 # These mean the SAME thing:
 obj = MyClass()
@@ -94,8 +94,8 @@ class Student:
 
 
 # Creating 3 DIFFERENT objects
-s1 = Student("Rahul", 20, 90)
-s2 = Student("Priya", 22, 85)
+s1 = Student("Sankar", 20, 90)
+s2 = Student("Ravi", 22, 85)
 s3 = Student("Amit", 21, 78)
 
 # Each object has its OWN copy
