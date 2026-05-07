@@ -1,3 +1,6 @@
+
+
+
 def find_Average(n):          # n is the argument (list of numbers)
     sum_num = 0             # initialise sum
 
