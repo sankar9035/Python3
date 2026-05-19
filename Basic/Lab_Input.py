@@ -41,3 +41,26 @@ print("Welcome to the python Automation testing course.")
 # This print() function ends with "**" as set in the end argument.
 print("We will learning python from basic to advance", end="**")
 print("to automate our test cases")
+
+'''
+what is the different between below two line
+print("result")
+print(result)
+'''
+
+#1. print("result")
+#What it does: Prints the exact word result.
+
+#Why: The quotation marks "" turn the text into a string (a literal piece of text).
+#Python doesn't look for any deeper meaning; it just prints exactly what is inside the quotes.
+
+#2. print(result)
+#What it does: Prints the value stored inside a variable named result.
+
+#Why: Without quotes, Python treats result as a variable name.
+#It will look back through your code to see what data you assigned to that variable and print that data instead.
+
+result = 100
+
+print("result")
+print(result)
