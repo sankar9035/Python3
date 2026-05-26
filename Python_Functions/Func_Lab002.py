@@ -1,3 +1,4 @@
+""" Variable length argument """
 #Possitional and Keyword argument
 #Positional when required N-numbers of argument need to pass we used(*args).
 #args are not a keyword it's a globally recommended can use any name instead of args.

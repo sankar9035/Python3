@@ -1,6 +1,10 @@
-# print command which use to print anything. input is the function which use to take INPUT from user.
-# type() is a built-in function that is used to return the type of data stored in the objects or variables in the program.
-# id() function is a built-in function that returns the unique identifier of an object means which represents the memory address of the object.
+'''
+--> print command which use to print anything. input is the function which use to take INPUT from user.
+--->type() is a built-in function that is used to return the type of data stored in the objects or variables in the program.
+---->id() function is a built-in function that returns the unique identifier of an object
+means which represents the memory address of the object.
+'''
+print("*******************************************************")
 """
 Python print() Function Syntax
 Syntax : print(value(s), sep= ‘ ‘, end = ‘\n’, file=file, flush=flush)
@@ -64,3 +68,21 @@ result = 100
 
 print("result")
 print(result)
+
+print("hello")
+'''
+1. print("hello") — Outputting Text
+Because hello is wrapped in quotes ("hello"), Python treats it as a string (literal text).
+It doesn't try to figure out what "hello" means; it just prints the letters directly to the screen.
+
+Result: Outputs hello
+'''
+
+#--> print(world)
+'''
+2. print(world) — Looking for a Variable
+Because world does not have quotes, Python thinks it is a variable (a container holding data).
+It searches your code to see if you have defined world earlier (like writing world = "Earth").
+
+Result: If you haven't defined it, Python will crash and give you a NameError: name 'world' is not defined.
+'''
