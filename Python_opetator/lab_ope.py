@@ -33,18 +33,18 @@ print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 # Division Operators. 1) Float division(/). 2) Floor division(//).
 # 1. Float division: The quotient returned by this operator is always a float number, no matter if two numbers are integers.
 
-print(9/9)
-print(55/5)
-print(-26/2)
-print(88.0/8)
+print(10/3)
+print(55/4)
+print(-26/3)
+print(88.0/5)
 print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 """Integer division 2. (Floor division) :The quotient returned by this operator is dependent on the argument being passed.
 If any of the numbers is float, it returns output in float.
 It is also known as Floor division because, if any number is negative, then the output will be floored.
 """
 print(10//3)
-print(-55//5)
-print(22.0//2)
+print(-55//4)
+print(22.0//3)
 print(-18.0//9)
 
 """

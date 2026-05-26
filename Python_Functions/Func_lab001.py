@@ -29,11 +29,12 @@ def mul(x,y):
 op = mul(9,5)
 print(op)
 
-#default parameters
+
 def greet(name):
     print(f"Hello {name} welcome to the paradise")
 greet("sankar")
 
+#default parameters
 def greet(name="Guest"):
     print(f"Hello {name} welcome to the paradise")
-greet("Ravi")
+greet()
