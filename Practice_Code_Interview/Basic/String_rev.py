@@ -29,3 +29,11 @@ print(f"Input: '{test_input}'")
 print(f"Output: '{test_output}'")
 #print(f"Expected: 'doog si nohtyP'")
 
+count = 0
+while count < 5:
+    print(count)      # 0 1 2 3 4
+    count += 1        # CRITICAL — without this, infinite loop!
+
+# Equivalent for loop:
+for count in range(5):
+    print(count)

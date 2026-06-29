@@ -27,7 +27,8 @@ print(p, "is best programing for beginner")
 name = "Shankar"
 age = 30
 course = "python"
-print(name, age, course, sep="-")
+#
+print(name,age,course, sep="_")
 """
 Note: As sep, end, flush, and file are keyword arguments their position does not change the result of the code. 
 Positional arguments cannot appear after keyword arguments. In the below example 10, 20 and 30 are positional arguments where sep=’ – ‘ is a keyword argument.
@@ -43,8 +44,8 @@ SyntaxError: positional argument follows keyword argument
 print("Welcome to the python Automation testing course.")
 
 # This print() function ends with "**" as set in the end argument.
-print("We will learning python from basic to advance", end="**")
-print("to automate our test cases")
+print("We will learning python from basic to advance ", end="**")
+print(" to automate our test cases")
 
 '''
 what is the different between below two line

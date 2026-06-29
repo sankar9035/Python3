@@ -12,9 +12,15 @@
 def temp_conversion(temp, unit):
 	if unit == 'C':
 		return (temp*9/5)+32
-	else:
+	elif unit == 'F':
 		return (temp-32)*5/9
+	else:
+		return None
+
 
 #calling function
 print(temp_conversion(45, 'C'))
 print(temp_conversion(113, 'F'))
+
+
+#2. Password strength checking.
