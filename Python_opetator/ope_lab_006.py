@@ -1,6 +1,6 @@
 '''
 6. Identity Operators (is, is not) and Membership Operators (in, not in)
-Identity operator: Identity operators are used to compare the objects, not if they are equal,
+Identity operator: Identity operators are used to compare the memory location (identity) of two objects, not if they are equal,
 but if they are actually the same object, with the same memory location.
 is : Return's True if both variable's are the same object.
 is not : Return's True if both variable's are not the same object
