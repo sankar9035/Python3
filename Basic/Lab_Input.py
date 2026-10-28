@@ -31,7 +31,8 @@ course = "python"
 print(name,age,course, sep="_")
 """
 Note: As sep, end, flush, and file are keyword arguments their position does not change the result of the code. 
-Positional arguments cannot appear after keyword arguments. In the below example 10, 20 and 30 are positional arguments where sep=’ – ‘ is a keyword argument.
+Positional arguments cannot appear after keyword arguments. In the below example 10, 20 and 30 are positional 
+arguments where sep=’ – ‘ is a keyword argument.
 print(10, 20, sep=' - ', 30)
     print(10, 20, sep=' - ', 30)
                             ^

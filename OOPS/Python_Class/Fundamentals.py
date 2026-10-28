@@ -2,6 +2,39 @@
 #OBJECTS
 #INSTANTIATION
 
+#Basic syntax of a class in Python:
+"""
+class ClassName:
+    # Class variable
+    class_variable = value
+
+    # Constructor
+    def __init__(self, parameter1, parameter2):
+        self.instance_variable1 = parameter1
+        self.instance_variable2 = parameter2
+
+    # Instance method
+    def method_name(self, parameter):
+        # statements
+        pass
+
+    # Another method
+    def another_method(self):
+        # statements
+        pass
+
+
+# Create object
+object_name = ClassName(argument1, argument2)
+
+# Access attributes
+object_name.instance_variable1
+
+# Call methods
+object_name.method_name(argument)
+
+"""
+#Lets explain each term in detail:
 '''
 Instantiation = Process of creating an
 OBJECT from a CLASS
